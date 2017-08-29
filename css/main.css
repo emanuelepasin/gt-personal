@@ -1,17 +1,18 @@
-* {
-	font-family: 'Rubik', sans-serif;
-}
-
 .container-fluid {
 	background-color: white;
 }
 
 h1 {
+	font-family: 'Rubik', sans-serif;
 	font-weight: bold;
 }
 
-h4 {
+h2 {
 	font-weight: bold;
+}
+
+h5 {
+	font-family: 'Roboto', sans-serif;
 }
 
 p {
@@ -20,7 +21,7 @@ p {
 
 em {
 	font-family: 'Roboto Slab', serif;
-	
+
 }
 
 .main-title {
