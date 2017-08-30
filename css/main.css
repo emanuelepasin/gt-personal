@@ -36,8 +36,12 @@ em {
 
 }
 
+ul {
+	list-style-type: none;
+}
+
 .main-title {
-	font-size: 4em;
+	font-size: 4rem;
 }
 
 
@@ -54,14 +58,63 @@ em {
 
 .topleft {
 	position: absolute;
-	top: 8px;
-	left: 16px;
-	padding-left: 8px;
+	top: 0.5rem;
+	left: 1rem;
+	padding-left: 0.5rem;
 	color: white;
+}
+
+.profile-picture {
+	float: left;
+	display: block;
+	width: 6rem;
+	height: 6rem;
+	border-radius: 50%;
+
 }
 
 /* Motivation section */
 
 .motivation {
 	margin: 50px 0 50px 0;
+}
+
+
+/* Footer */
+footer{
+	background-color: #f3f3f3;
+	margin-top: 3rem;
+	padding: 0.5rem 0 0.5rem 0;
+
+}
+
+.contact-list {
+	vertical-align: middle;
+	padding-left: 1rem;
+	padding-top: 1rem;
+}
+
+.contacts {
+	display: flex;
+	align-items: center;
+}
+
+.socials {
+	flex-direction: column;
+  justify-content: center;
+  resize: vertical;
+}
+
+.social-list {
+	float: right;
+	padding-top: 2.5rem;
+}
+
+.fa-twitter, .fa-facebook, .fa-instagram, .fa-linkedin-square {
+	color: #131313;
+}
+
+.twitter, .facebook, .instagram, .linkedin {
+	display: inline-block;
+	padding-left: 1rem;
 }

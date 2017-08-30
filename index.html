@@ -10,14 +10,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <!-- Google fonts import -->
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:400,700|Rubik:400,700" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
 
   </head>
   <body>
   	<div class="container-fluid">
-  		<div class="header container py-2">
-		   	<h1 class="main-title pl-1 pr-1" data-wow-delay="0.5s">It's All About The UX</h1>
+  		<div class="header container pt-5 pb-3">
+		   	<h1 class="main-title pl-1 pr-1">It's All About The UX</h1>
 		    <h5 class="sub-title mt-4">The devil is in the detail. That's the reason why I prefer to keep it simple.</h5>
 		  </div>
 
@@ -85,9 +87,38 @@
 				</div>
 			</div>
 
-		</div> <!-- /.container -->
-	</div> <!-- /.container-fluid -->
+  		</div> <!-- /.container -->
+  	</div> <!-- /.container-fluid -->
 
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="contacts">
+              <img class="profile-picture" src="img/me.png" alt="Picture of me">
+              <ul class="contact-list">
+                <li>Emanuele Pasin</li>
+                <li>Via Bastion 17, Bassano Del Grappa 36061, Italy</li>
+                <li>+39 347 7172381</li>
+                <li>lele.pasin@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="socials">
+              <ul class="social-list">
+                <li class="linkedin"><a href="https://www.linkedin.com/in/emanuelepasin7/" onclick=“handleOutboundLinkClicks” target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+                <li class="twitter"><a href="https://twitter.com/Nisap7" onclick=“handleOutboundLinkClicks” target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+                <li class="facebook"><a href="https://www.facebook.com/emanuele.pasin.7" onclick=“handleOutboundLinkClicks” target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
+                <li class="instagram"><a href="https://www.instagram.com/emanuelepasin" onclick=“handleOutboundLinkClicks” target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -97,7 +128,7 @@
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
 
-    <!-- JavaScript -->
+  <!-- JavaScript -->
     <script type="text/javascript">
       window.sr = ScrollReveal();
       sr.reveal('.header');
@@ -113,7 +144,6 @@
       sr.reveal('.motivation');
       sr.reveal('.whyme-serious');
       sr.reveal('.whyme-joking');
-
     </script>
 
   </body>
