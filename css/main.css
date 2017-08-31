@@ -40,11 +40,12 @@ ul {
 
 }
 
-.header {
-	height: 25rem;
+.parallax-window {
+	height: 30rem;
 	width: 100%;
-	background-image: url(../img/cover.png);
-	background-size: cover;
+	/*background-image: url(../img/cover.png);
+	background-size: cover;*/
+	background: transparent;
 	display: flex;
   flex-direction: column;
   justify-content: center;
