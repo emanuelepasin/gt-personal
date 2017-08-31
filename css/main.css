@@ -4,36 +4,20 @@
 	background-color: #fcfcfc;
 }
 
-h1 {
+.body-container{
+	padding: 1rem 0 3rem 0;
+}
+
+h1, h2{
 	font-family: 'Rubik', sans-serif;
 	font-weight: bold;
 	color: #131313;
 }
 
-h2 {
-	font-weight: bold;
-	color: #131313;
-}
-
-h5 {
-	font-family: 'Roboto', sans-serif;
-	color: #131313;
-}
 
 h3 {
 	font-family: 'Rubik', sans-serif;
 	color: #fcfcfc;
-}
-
-p {
-	font-family: 'Roboto Slab', serif;
-	color: #131313;
-}
-
-em {
-	font-family: 'Roboto Slab', serif;
-	color: #131313;
-
 }
 
 ul {
@@ -81,11 +65,16 @@ ul {
 
 
 /* Footer */
+
 footer{
 	background-color: #f3f3f3;
-	margin-top: 3rem;
 	padding: 0.5rem 0 0.5rem 0;
 
+}
+
+.remove-padding-lr {
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .contact-list {
@@ -97,6 +86,7 @@ footer{
 .contacts {
 	display: flex;
 	align-items: center;
+
 }
 
 .socials {
@@ -117,4 +107,24 @@ footer{
 .twitter, .facebook, .instagram, .linkedin {
 	display: inline-block;
 	padding-left: 1rem;
+}
+
+/* media queries */
+
+@media (max-width: 576px) {
+
+	.contact-list{
+		display: none;
+	}
+	.profile-picture {
+		margin:auto;
+	}
+	.social-list {
+		float: none;
+		width: 50%;
+		margin: auto;
+		padding-left: 0;
+		padding-top: 1.5rem;
+	}
+
 }
